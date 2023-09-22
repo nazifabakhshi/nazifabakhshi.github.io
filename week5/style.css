@@ -1,0 +1,36 @@
+/* Nazifa Bakhshi
+09/21/2023 */
+header {
+  background-color: #b1b1c0;
+}
+footer {
+    background-color: #b1b1c0;
+}
+p {
+    font-size: 20px;
+}
+ul {
+    font-size:  20px;
+}
+li {
+    font-size: 20px
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: purple;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: green;
+  }
