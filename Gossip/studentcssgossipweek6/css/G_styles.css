@@ -1,0 +1,62 @@
+body{
+  
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  background-image: url("../images/abstractPic.jpg");
+  background-size: cover;
+  }
+  h1{
+    font-size: 2em;
+  font-style: italic;
+  }
+  h3{
+    font-size: 1.5em;
+  border-bottom: 1px, solid, black;
+}
+.fonts{
+    color: orange;
+	font-family: 'Comic Sans MS', sans-serif;
+	font-size: 1.5em;
+	font-style: italic;
+ 	font-weight: bold;
+}
+.colors{
+    color: red;
+    font-weight: bold;
+}
+.more{
+  color: blue;
+  text-decoration: underline;
+  border: 1px dashed gray;
+  background-color: #D69BBE;
+}
+.backgrounds {
+  color: green;
+  font: 'Trebuchet MS', san-serif;
+ 	font-size: 1.25em;
+}
+article ul{
+  list-style-image: url(../images/peaceSign3.png);
+}
+#outerwrapper{
+  width: 650px;
+  background-color: #E7DBF6;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav{
+  width: 175px;
+  background-color: #E7DBF6;
+  float: left;
+}
+article{
+  margin-left: 175px;
+  background-color: white;
+  	padding: 10px;
+}
+footer{
+  font-size: .75em;
+  	text-align: center;
+ 	margin-top: 10px;
+  	padding-bottom: 10px;
+}
