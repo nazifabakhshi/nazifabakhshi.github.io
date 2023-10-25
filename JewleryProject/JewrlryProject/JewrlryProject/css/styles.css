@@ -1,0 +1,64 @@
+
+/*YNazifa Bakhshi 10/24/2023 */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@font-face {
+    font-family: 'robotomedium';
+    
+    src: 
+         url('../fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Medium-webfont.ttf') format('truetype');
+        
+    font-weight: normal;
+    font-style: normal;
+
+}
+h2 {
+	font-family: 'robotomedium', arial, sans-serif; 
+	font-size: 2em;
+}
+ 
+#outerwrapper {	
+
+	background-color: rgba(243,205,170, 0.4);
+	width: 70%;	
+	border-radius: 15%;
+	margin: auto;
+	
+}	
+html {	
+	background-image: url("../images/jewelry.jpg");
+	 position: top; 
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	}
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding: 10px;
+}
+main {
+	background-image: linear-gradient( #FFFFFF,#F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Times New Roman', Times, serif;
+}
+img {
+	float: left;
+	border-radius: 100px;
+}
+.addrightmargin {
+	margin-right: 10%;
+}
+nav li {
+	list-style: none;
+	font-size: 1.5em;
+	}
+nav {
+	clear: both;
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+}
