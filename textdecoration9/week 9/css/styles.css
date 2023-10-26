@@ -13,12 +13,15 @@ h2 {
 #example {
     background-color: #E3ADB9;
 }
-#b {
+.a {
+    text-decoration-line: none
+}
+.b {
     text-decoration-line: underline;
 }
-#c {
+.c {
     text-decoration: overline;
 }
-#d {
+.d {
     text-decoration: line-through;
 }
