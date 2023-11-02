@@ -1,0 +1,50 @@
+body {
+    background: lightgoldenrodyellow;
+    color: #333333;
+    font-size: 1.25rem;
+}
+.flex-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.pricebox {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin: 10px;
+    text-align: center;
+    width: 31%;
+}
+.pricebox h4.price {
+    background:rgb(236, 120, 77); 
+    color: #FFFFFF;
+    padding: 15px;
+}
+.pricebox ul {
+    margin: 0;
+    padding: 0;
+}
+.pricebox ul li:nth-child(even) {
+    background: rgba(0, 0, 150, 0.1);
+}
+
+.pricebox p {
+    font-weight: bold;
+}
+
+.pricebox a.button {
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    color: #FFFFFF;
+    background:rgb(236, 120, 77);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+div.pricebox:nth-of-type(2) h4.price,
+div.pricebox:nth-of-type(2) a.button {
+    background:rgb(236, 120, 77);
+}
