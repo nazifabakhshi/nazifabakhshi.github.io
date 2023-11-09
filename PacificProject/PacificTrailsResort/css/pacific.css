@@ -47,10 +47,12 @@ header
 	text-indent: 1em;
 }
 
-nav
+nav ul
 { 
 	background-color: #90C7E3;
     font-weight: bold;
+	margin:0;
+	padding:0;
 	
 	
 }
