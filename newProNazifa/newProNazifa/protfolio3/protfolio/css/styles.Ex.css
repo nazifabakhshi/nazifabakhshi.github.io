@@ -1,0 +1,115 @@
+body {
+    background: rgb(174, 181, 185);
+    color: #333333;
+    font-size: 1.25rem;
+}
+
+.classA {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.classC {
+    background: #FFFFFF;
+    border: 1px rgb(95, 138, 179);
+    float: left;
+    margin: 10px;
+    text-align: center;
+    width: 31%;
+}
+
+
+
+.classC h4.classD {
+    background:rgb(95, 138, 179); 
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+.classC ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.classC ul li:nth-child(even) {
+    background: rgba(0, 0, 150, 0.1);
+}
+
+.classC p {
+    font-weight: bold;
+}
+
+.classC a.button {
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    color: #FFFFFF;
+    background:rgb(95, 138, 179);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/*div.pricebox:nth-of-type(2) h4.price,
+div.pricebox:nth-of-type(2) a.button {
+    background:rgb(236, 120, 77);*/
+
+  /* for menu bar*/
+nav ul li {
+    display: inline;
+    border: 1px solid rgba(209, 206, 196, 0.767);
+    border-radius: 10px;
+    padding: 10px;
+    list-style-type: disc;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(209, 206, 196, 0.767);
+
+  }
+  .color {
+    color: white;
+  }
+  .addrightmargin {
+	margin-right: 10%;
+    float: left;
+	border-radius: 150px;
+  }
+  footer{
+    font-size: .75em;
+    text-align: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+  }
+  /* table*/
+table {
+    width: 100%;
+    background-image: linear-gradient(#FFFFFF, #F0F9E6);
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: rgb(95, 138, 179);
+    border-style: solid;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  table td, th {
+    border-width: 2px;
+    border-color: rgb(95, 138, 179);;
+    border-style: solid;
+    padding: 15px;
+  }
+  
+  table thead {
+    background-color:rgb(95, 138, 179);;
+  }
+  th {
+    background-color: rgb(95, 138, 179);;
+  }
+  p {
+     font: 1.25em sans-serif;
+  }
