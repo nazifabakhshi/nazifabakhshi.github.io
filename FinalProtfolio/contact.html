@@ -1,0 +1,94 @@
+
+<!--Nazifa Bakhshi
+11/29/2023-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Page</title>
+        <meta name="author" content="Nazifa Bakhshi" >
+        <meta charset="UTF-8">
+        <meta name="description" content="Nazifa Bakhshi software app designer Boise Idaho" > 
+       <meta name="keywords" content="UX UI software programming" >
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+       <link href="./css/Contact.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+<nav>
+    <a href="index.html"><img class="addrightmargin" src="./images/NBloggo.png" alt="NBloggo.pngt" 
+        width="100" height="100"></a>
+<ul class="color">
+       
+    <li><a href="index.html" class="link">Home</a></li> 
+    <li><a href="about.html" class="link">About</a></li> 
+    <li><a href="experience.html" class="link">Experience</a></li>
+    <li><a href="contact.html" class="link">Contact</a></li>
+        </ul>
+</nav>
+
+                    <form action="mailto:nazifabakhshi@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+                    <!-- Group Fields Together, page 104 -->
+                    <fieldset>
+                    <legend>How do I contact you?</legend>
+                    <div>
+                    <label for="Company">Company:</label> <br><input type="text" name="Company" id = "Company" class="A" Placeholder="Company name"> 
+                      </div>  
+            
+                        <!-- Person to Contact Select Box, page 97 -->
+                        <div>
+                        <label for="Person_to_contact">Person to contact:</label><br> <input type="text" name="Person_to_contact" id = "Person_to_contact" class="B" Placeholder="Your Name"> 
+                        </div>
+            
+                    
+                        <!-- Email, textbook file rental.html -->
+                        <div>
+                        <label for="Email">Email:</label> <input type="Email" name="Email" id = "Email" class="C" Placeholder="" required> 	
+                        </div>
+                        <!--Video 9.9 Building and Testing a Valid Form-->	
+                        <!-- Phone, textbook file rental.html-->
+                        <div>
+                            <label for="phone">Phone </label><input type="tel" name="phone" id="phone" placeholder="000-000_0000">
+                            <!--Video 9.9 Building and Testing a Valid Form-->
+                        </div>
+                        </fieldset>
+                     <!-- Group Fields Together, page 104 -->
+                    <fieldset>
+                        <legend>What opportunities are available at your company?</legend>
+                        <!-- Select Box, page 98 -->
+                        <label for="Type_of_Position">Type of Position</label>
+                        <select name="Type_of_Position" id="Type_of_Position">
+                        <option value= Internship>Internship</option>
+                         <option value= Part-time>Part-time</option>
+                         <option value= Full-time>Full-time</option>
+                         <option value= Contract>Contract</option>
+                         <option value= Temporary>Temporary</option>
+                         <option value= On-call>On-call</option>
+                        </select>
+                        
+                        <!-- Radio Buttons, page 99 -->
+                        <p>How did you find me?</p><input type="radio" name="How_did_you_find_me?" id="How_did_you_find_me?" value="How_did_you_find_me?">  <label for="How_did_you_find_me?" >LinkedIn</label>
+                        <input type="radio" name="How_did you_find me?" id="Job_Fair" value="How_did_you_find_me?"> 
+                        <label for="Job_Fair">Job Fair</label>
+                        <input type="radio" name="How_did_you_find_me?" id="CWI_Corporate_Partner" value="How_did_you_find_me?" checked> 
+                        <label for="CWI_Corporate_Partner">CWI Corporate Partner</label>
+                        <div>
+                    
+                            <!-- Text Area, textbook file code-9-1.html -->	
+                            <textarea name=" comment">How should I prepare for interview?</textarea>
+                        </div>
+                    </fieldset>
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                 </form>
+          
+            <footer>
+                <p> contact me at:<a href="tel:+12080000000"> (208) 000 0000 </a> </p>
+                <a target="_blank" href="https://Linkedin.com"> <img src="./images/linkedIn.png" alt="LinkedIn"></a>
+                &nbsp;
+                 <a target="_blank" href="https://github.com/nazifabakhshi/nazifabakhshi.github.io"><img src="./images/github2.png" alt="github"></a>
+             
+               <br> 
+                </footer>
+    </body>
+</html>
+                    
+            
+            
