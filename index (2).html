@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="#070d1c" name="theme-color"/>
+  <meta content="Nazifa Bakhshi — computer science student at Boise State University, exploring cybersecurity, machine learning, and software engineering." name="description"/>
+  <title>
+   Nazifa Bakhshi | Portfolio
+  </title>
+  <style>
+   :root{--bg:#070d1c;--surface:#101a2d;--line:#304055;--text:#eff6ff;--muted:#a7b6cc;--mint:#6bf5d6;--lav:#a9a5ff;--pink:#dd9aff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(circle at 79% 12%,#38317644,transparent 35%),radial-gradient(circle at 14% 47%,#0d686033,transparent 40%)}a{color:inherit;text-decoration:none}a:focus-visible,button:focus-visible{outline:2px solid var(--mint);outline-offset:4px}.shell{max-width:1180px;padding:0 28px;margin:auto}.top{position:sticky;top:0;z-index:5;background:#080e1cdd;backdrop-filter:blur(16px);border-bottom:1px solid #43526b70}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-size:1.2rem;font-weight:850;letter-spacing:-.07em}.logo span{color:var(--mint)}.navlinks{display:flex;align-items:center;gap:24px;font-size:.85rem;color:#ced8e9}.navlinks a:hover,.footer a:hover{color:var(--mint)}.outline{border:1px solid #6bf5d677;border-radius:100px;padding:8px 14px}.eyebrow,.mono{font:700 .73rem/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.13em;text-transform:uppercase;color:var(--mint)}.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:38px;align-items:center;min-height:650px;padding:95px 0 90px}.status{display:inline-flex;align-items:center;gap:10px;padding:7px 13px;border:1px solid #42897d80;border-radius:100px;background:#15343375;font-size:.72rem;font-weight:750;letter-spacing:.12em;color:#bdfdec}.dot{height:7px;width:7px;border-radius:100%;background:var(--mint);box-shadow:0 0 12px var(--mint)}h1{font-size:clamp(3.5rem,7.1vw,7.2rem);line-height:.98;letter-spacing:-.075em;margin:24px 0 22px}h1 .gradient{display:block;background:linear-gradient(100deg,var(--mint),#8cc7ff 50%,#c7a0ff);-webkit-background-clip:text;background-clip:text;color:transparent}.summary{max-width:570px;color:#b7c6dc;font-size:1.07rem}.actions{display:flex;flex-wrap:wrap;gap:13px;margin:29px 0}.button{display:inline-flex;align-items:center;gap:12px;padding:13px 20px;border:1px solid #5e728d;border-radius:10px;font-weight:750;font-size:.9rem;transition:transform .2s,border-color .2s}.button:hover{transform:translateY(-3px);border-color:var(--mint)}.button.primary{background:var(--mint);border-color:var(--mint);color:#061827}.side-note{font:.78rem ui-monospace,monospace;color:#9baec6}.art{position:relative;min-height:435px;display:grid;place-items:center;isolation:isolate}.halo{width:min(100%,390px);aspect-ratio:1;border:1px solid #6df5d742;border-radius:50%;position:relative;display:grid;place-items:center;box-shadow:0 0 0 37px #b0b3ff07,0 0 0 75px #b0b3ff05}.halo::before{content:"";position:absolute;inset:20px;border:1px dashed #8fbaff5e;border-radius:50%;transform:rotate(-32deg) scaleX(.83)}.halo::after{content:"";position:absolute;inset:67px;border:1px solid #c5a4ff4d;border-radius:50%}.symbol{font-size:5rem;font-weight:850;letter-spacing:-.08em;text-shadow:0 0 55px #5cf2ce55}.orbit-tag{position:absolute;background:#111e32f2;box-shadow:0 8px 35px #0008;border:1px solid #526986;border-radius:11px;padding:10px 15px;font:.75rem ui-monospace,monospace;color:#d8eaff}.orbit-tag strong{color:var(--mint)}.tag1{right:-2%;top:14%}.tag2{left:-7%;top:55%}.tag3{right:-1%;bottom:10%}.coordinates{position:absolute;top:0;left:0;color:#6a83a8;font:.67rem ui-monospace,monospace;letter-spacing:.12em}main section{padding:70px 0;scroll-margin-top:70px}.section-head{display:flex;gap:22px;align-items:end;justify-content:space-between;margin-bottom:27px}.section-head p{max-width:440px;color:var(--muted);font-size:.91rem}.section-heading{font-size:clamp(2rem,4.4vw,3.1rem);letter-spacing:-.06em;line-height:1.1;margin:9px 0}.focus{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.focus article,.project,.story,.terminal{border:1px solid #314157;border-radius:19px;background:linear-gradient(140deg,#14213a,#0d1628)}.focus article{padding:27px;min-height:246px;position:relative;overflow:hidden}.focus article::after{content:attr(data-num);position:absolute;right:15px;top:-23px;font-size:7rem;font-weight:900;color:#ffffff08;line-height:1}.focus .mark{font:700 .75rem ui-monospace,monospace;color:var(--mint)}.focus h3,.project h3{font-size:1.22rem;letter-spacing:-.03em;margin:20px 0 8px}.focus p,.project p,.story p{font-size:.92rem;color:var(--muted);margin:0}.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.project{padding:26px;min-height:254px;display:flex;flex-direction:column;gap:6px;transition:transform .2s,border-color .2s}.project:hover{transform:translateY(-3px);border-color:#65819b}.project .head{display:flex;justify-content:space-between;align-items:center;color:var(--mint);font:700 .72rem ui-monospace,monospace;letter-spacing:.08em}.project h3{margin:9px 0 3px}.project a{align-self:flex-start;margin-top:auto;padding-top:18px;color:#b2d7ff;font-weight:750;font-size:.86rem}.project a:hover{text-decoration:underline}.wide{display:grid;grid-template-columns:1.1fr .9fr;gap:19px}.story{padding:31px}.story h3{font-size:1.4rem;margin:15px 0 12px;letter-spacing:-.03em}.terminal{padding:0;overflow:hidden;font:.85rem/1.9 ui-monospace,Consolas,monospace;color:#d3e3f5}.terminal .bar{height:42px;border-bottom:1px solid #34435e;background:#151f32;display:flex;align-items:center;gap:6px;padding:0 18px}.terminal .bar i{width:9px;height:9px;background:#ff9a9a;border-radius:50%}.terminal .bar i:nth-child(2){background:#ffce77}.terminal .bar i:nth-child(3){background:#78e4bb}.terminal .code{padding:26px;white-space:pre-wrap}.terminal .key{color:#a9a5ff}.terminal .val{color:#78ecd5}.skills{display:flex;gap:10px;flex-wrap:wrap}.skills span{background:#131f34;border:1px solid #32445d;border-radius:100px;padding:8px 14px;color:#d9e8fa;font-size:.86rem}.banner{position:relative;border:1px solid #51798b;border-radius:22px;background:linear-gradient(100deg,#123b43,#1c2047 67%,#32224e);padding:42px;margin:23px 0 70px}.banner h2{font-size:clamp(2rem,4vw,3rem);margin:8px 0;letter-spacing:-.05em}.banner p{color:#cbd9e8;max-width:690px}.footer{border-top:1px solid #ffffff20;padding:25px 0;color:#97a8c0;font-size:.82rem}.footer .shell{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}@media(max-width:880px){.hero{grid-template-columns:1fr;padding:75px 0 35px}.art{min-height:330px}.halo{width:290px}.tag2{left:4%}.tag1{right:4%}.focus{grid-template-columns:1fr}.focus article{min-height:175px}.wide{grid-template-columns:1fr}}@media(max-width:620px){.shell{padding:0 20px}.nav{align-items:flex-start;flex-direction:column;gap:9px;padding:15px 0}.navlinks{gap:14px;flex-wrap:wrap;font-size:.78rem}.hero{padding:60px 0 20px}.projects{grid-template-columns:1fr}.section-head{display:block}.art{min-height:290px}.halo{width:235px}.symbol{font-size:4rem}.tag1{top:5%;right:0}.tag2{left:0}.tag3{bottom:0;right:0}.orbit-tag{font-size:.62rem;padding:8px}.banner{padding:26px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button,.project{transition:none}}
+
+.project-tech{font:600 .78rem/1.6 ui-monospace,Consolas,monospace;color:#a9a5ff;margin:0 0 7px}.project-note{margin-top:auto;padding-top:18px;color:#83e6d4;font:600 .74rem/1.5 ui-monospace,Consolas,monospace}.project{min-height:300px}.project p{margin-bottom:0}.project-link-pending{align-self:flex-start;margin-top:auto;padding:10px 15px;border:1px solid #6bf5d677;border-radius:10px;color:#b2d7ff;font-weight:750;font-size:.86rem;cursor:default}.project-link-hint{font-size:.72rem;color:#a7b6cc;margin-top:3px}
+  </style>
+ </head>
+ <body>
+  <header class="top">
+   <nav aria-label="Main navigation" class="shell nav">
+    <a class="logo" href="#home">
+     nazifa
+     <span>
+      .
+     </span>
+     bakhshi
+    </a>
+    <div class="navlinks">
+     <a href="#about">
+      About
+     </a>
+     <a href="#expertise">
+      Focus
+     </a>
+     <a href="#work">
+      Projects
+     </a>
+     <a href="#research">
+      Research
+     </a>
+     <a href="#toolkit">
+      Skills
+     </a>
+     <a class="outline" href="https://github.com/nazifabakhshi" rel="noopener noreferrer" target="_blank">
+      GitHub ↗
+     </a>
+    </div>
+   </nav>
+  </header>
+  <main class="shell" id="home">
+   <section class="hero">
+    <div>
+     <span class="status">
+      <i class="dot">
+      </i>
+      BUILDING WHAT'S NEXT
+     </span>
+     <h1>
+      Code with
+      <br/>
+      <span class="gradient">
+       curiosity.
+      </span>
+     </h1>
+     <p class="summary">
+      Hi, I'm
+      <strong>
+       Nazifa Bakhshi
+      </strong>
+      , a computer science student exploring the intersection of
+      <strong>
+       cybersecurity, machine learning, and software engineering
+      </strong>
+      . I enjoy turning ideas into working systems and asking how technology can be both intelligent and trustworthy.
+     </p>
+     <div class="actions">
+      <a class="button primary" href="#work">
+       Explore my projects
+       <span aria-hidden="true">
+        ↗
+       </span>
+      </a>
+      <a class="button" href="#about">
+       Get to know me ↓
+      </a>
+     </div>
+     <div class="side-note">
+      CYBERSECURITY // MACHINE LEARNING // SOFTWARE
+     </div>
+    </div>
+    <div aria-label="Decorative orbital initials illustration" class="art">
+     <span class="coordinates">
+      43.6187° N / IDEAS IN MOTION
+     </span>
+     <div class="halo">
+      <span class="symbol">
+       NB
+       <span style="color:var(--mint)">
+        .
+       </span>
+      </span>
+     </div>
+     <div class="orbit-tag tag1">
+      <strong>
+       01
+      </strong>
+      / SECURE
+     </div>
+     <div class="orbit-tag tag2">
+      <strong>
+       02
+      </strong>
+      / LEARN
+     </div>
+     <div class="orbit-tag tag3">
+      <strong>
+       03
+      </strong>
+      / BUILD
+     </div>
+    </div>
+   </section>
+   <section id="about">
+    <div class="section-head">
+     <div>
+      <div class="eyebrow">
+       01 / Introduction
+      </div>
+      <h2 class="section-heading">
+       More than lines of code.
+      </h2>
+     </div>
+     <p>
+      I like understanding not only how technology works, but how it can become safer, smarter, and more useful.
+     </p>
+    </div>
+    <div class="wide">
+     <div class="story">
+      <span class="eyebrow">
+       About me
+      </span>
+      <h3>
+       Connecting software, security, and new ideas.
+      </h3>
+      <p>
+       My work spans Java development, cybersecurity, data wrangling, Python web applications, and interactive web experiences. I’m pursuing a cybersecurity emphasis and expanding my knowledge of machine learning.
+      </p>
+     </div>
+     <div aria-label="Areas of focus" class="terminal">
+      <div class="bar">
+       <i>
+       </i>
+       <i>
+       </i>
+       <i>
+       </i>
+      </div>
+      <div class="code">
+       <span class="key">
+        const
+       </span>
+       nazifa = {
+  university:
+       <span class="val">
+        "Boise State"
+       </span>
+       ,
+  major:
+       <span class="val">
+        "Computer Science"
+       </span>
+       ,
+  emphasis:
+       <span class="val">
+        "Cybersecurity"
+       </span>
+       ,
+  exploring:
+       <span class="val">
+        "Machine Learning"
+       </span>
+       ,
+  mindset:
+       <span class="val">
+        "Keep building"
+       </span>
+       };
+      </div>
+     </div>
+    </div>
+   </section>
+   <section id="expertise">
+    <div class="section-head">
+     <div>
+      <div class="eyebrow">
+       02 / Three directions, one mindset
+      </div>
+      <h2 class="section-heading">
+       What I focus on.
+      </h2>
+     </div>
+     <p>
+      Different interests, united by problem solving and curiosity.
+     </p>
+    </div>
+    <div class="focus">
+     <article data-num="01">
+      <span class="mark">
+       01 / PROTECT
+      </span>
+      <h3>
+       Cybersecurity
+      </h3>
+      <p>
+       Thinking about authentication, secure application design, and protecting data.
+      </p>
+     </article>
+     <article data-num="02">
+      <span class="mark">
+       02 / DISCOVER
+      </span>
+      <h3>
+       Machine Learning
+      </h3>
+      <p>
+       Beginning a deeper exploration of data-driven models and responsible AI applications.
+      </p>
+     </article>
+     <article data-num="03">
+      <span class="mark">
+       03 / CREATE
+      </span>
+      <h3>
+       Software Development
+      </h3>
+      <p>
+       Building, debugging, testing, and refining solutions across different programming environments.
+      </p>
+     </article>
+    </div>
+   </section>
+   <section id="work">
+    <div class="section-head">
+     <div>
+      <div class="eyebrow">
+       03 / Selected hands-on work
+      </div>
+      <h2 class="section-heading">
+       From idea to implementation.
+      </h2>
+     </div>
+     <p>
+      A selection of real-world problem solving, collaborative work, and independent development. Some project code is kept private.
+     </p>
+    </div>
+    <div class="projects">
+     <article class="project">
+      <div class="head">
+       <span>
+        01 / CYBERSECURITY
+       </span>
+       <span>
+        ◈
+       </span>
+      </div>
+      <h3>
+       Authentication Web Application
+      </h3>
+      <div class="project-tech">
+       Python · Flask · SQLite
+      </div>
+      <p>
+       A database-backed authentication project featuring user registration, login, and account access workflows.
+      </p>
+      <span aria-disabled="true" class="project-link-pending">
+       Browse GitHub ↗
+      </span>
+     </article>
+     <article class="project">
+      <div class="head">
+       <span>
+        02 / CYBERSECURITY
+       </span>
+       <span>
+        ◈
+       </span>
+      </div>
+      <h3>
+       SSH Log Analysis &amp; Data Wrangling
+      </h3>
+      <div class="project-tech">
+       Java · Regex · B-Trees · SQLite · Git
+      </div>
+      <p>
+       Analyzed SSH server logs with a team to investigate suspicious network activity using B-Trees and SQLite. Independently built a Java data-wrangling tool with regular expressions to extract and organize security data from more than 650,000 log entries.
+      </p>
+      <div class="project-note">
+       Boise State University · Summer 2026
+      </div>
+      <span aria-disabled="true" class="project-link-pending">
+       Browse GitHub ↗
+      </span>
+     </article>
+     <article class="project">
+      <div class="head">
+       <span>
+        03 / UPCOMING
+       </span>
+       <span>
+        ◈
+       </span>
+      </div>
+      <h3>
+       Future Project
+      </h3>
+      <div class="project-tech">
+       More to come
+      </div>
+      <p>
+       Reserved for a future project in machine learning, cybersecurity, or software development.
+      </p>
+      <div class="project-note">
+       Project details coming soon
+      </div>
+      <span aria-disabled="true" class="project-link-pending">
+       Browse GitHub ↗
+      </span>
+     </article>
+     <article class="project">
+      <div class="head">
+       <span>
+        04 / GAME DEVELOPMENT
+       </span>
+       <span>
+        ◈
+       </span>
+      </div>
+      <h3>
+       Oregon Trail–Style Survival Game
+      </h3>
+      <div class="project-tech">
+       JavaScript · React · HTML · Bootstrap
+      </div>
+      <p>
+       Developed a React-based survival game inspired by The Oregon Trail, featuring a modular event engine, inventory management, travel decisions, save/load functionality, and a responsive interface built with Bootstrap.
+      </p>
+      <div class="project-note">
+       CWI · Fall 2025
+      </div>
+      <span aria-disabled="true" class="project-link-pending">
+       Browse GitHub ↗
+      </span>
+     </article>
+    </div>
+   </section>
+   <section id="research">
+    <div class="section-head">
+     <div>
+      <div class="eyebrow">
+       04 / Collaborative research
+      </div>
+      <h2 class="section-heading">
+       Questions worth exploring.
+      </h2>
+     </div>
+     <p>
+      Two team research posters on the impact of emerging technologies on learning and communities.
+     </p>
+    </div>
+    <div class="wide">
+     <article class="story">
+      <span class="eyebrow">
+       Research poster / Artificial intelligence
+      </span>
+      <h3>
+       The Impact of AI on Academic Engagement &amp; Learning Outcomes
+      </h3>
+      <p>
+       Collaborated on a research poster exploring how AI tools in higher education may shape students’ engagement, information retention, critical thinking, and independent problem solving. The project also considers strategies for responsible AI use in teaching and learning.
+      </p>
+      <div class="project-note">
+       Team research · Higher education
+      </div>
+     </article>
+     <article class="story">
+      <span class="eyebrow">
+       Research poster / Data centers
+      </span>
+      <h3>
+       Regional Impacts of Data Centers
+      </h3>
+      <p>
+       Collaborated on a research poster examining how data center growth can affect surrounding communities, including electricity demand, water resources, and land use. The work considers the challenges of balancing digital infrastructure with regional needs.
+      </p>
+      <div class="project-note">
+       Team research · Technology &amp; communities
+      </div>
+     </article>
+    </div>
+   </section>
+   <section id="toolkit">
+    <div class="section-head">
+     <div>
+      <div class="eyebrow">
+       05 / Toolkit
+      </div>
+      <h2 class="section-heading">
+       Technologies I've used.
+      </h2>
+     </div>
+     <p>
+      Skills developed through class projects, labs, and independent exploration.
+     </p>
+    </div>
+    <div class="skills">
+     <span>
+      Java
+     </span>
+     <span>
+      Python
+     </span>
+     <span>
+      C
+     </span>
+     <span>
+      JavaScript
+     </span>
+     <span>
+      HTML &amp; CSS
+     </span>
+     <span>
+      SQLite
+     </span>
+     <span>
+      Git / GitHub
+     </span>
+     <span>
+      Linux
+     </span>
+     <span>
+      JUnit
+     </span>
+     <span>
+      React
+     </span>
+     <span>
+      Regex
+     </span>
+     <span>
+      B-Trees
+     </span>
+     <span>
+      Bootstrap
+     </span>
+    </div>
+   </section>
+   <section class="banner" id="contact">
+    <div class="eyebrow">
+     06 / Connect
+    </div>
+    <h2>
+     Let's build something meaningful.
+    </h2>
+    <p>
+     Interested in my programming, cybersecurity, or machine learning journey? My GitHub profile is where I share projects as they're ready.
+    </p>
+    <div class="actions">
+     <a class="button primary" href="https://github.com/nazifabakhshi" rel="noopener noreferrer" target="_blank">
+      Explore GitHub ↗
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="shell">
+    <span>
+     ©
+     <span id="year">
+      2026
+     </span>
+     Nazifa Bakhshi · Designed and built with HTML &amp; CSS
+    </span>
+    <a href="#home">
+     Back to top ↑
+    </a>
+   </div>
+  </footer>
+  <script>
+   document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+ </body>
+</html>
