@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+body {
+ background: #f59220; 
+}	
+
+.tableStyle {
+  border: 9px solid #4883bb;
+  background-color: #c2d2da;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: left;
+  font-size: 20px;
+}
+
+
+caption {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+thead {
+	background-color: #6c8cbd;
+}
+
+tr:nth-child(even) {
+  background: #D0E4F5;
+}
+
+tfoot {
+	text-align: center;
+  color: #FFFFFF;
+	background-color: #023047;
+}
+a:link{
+    color:#023047;
+}
+a:visited{
+    color:#4883bb;
+}
+a:hover{
+    color:#e0a561
+}
+a:active{
+    color:#c2d2da
+}

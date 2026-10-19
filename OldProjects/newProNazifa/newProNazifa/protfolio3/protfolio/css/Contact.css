@@ -1,0 +1,68 @@
+body { 
+    background: rgb(174, 181, 185);
+    color: #333333;
+    font-size: 1.25rem;
+   
+}
+
+/* for menu bar*/
+nav ul li {
+    display: inline;
+    border: 1px solid rgba(209, 206, 196, 0.767);
+    border-radius: 10px;
+    padding: 10px;
+    list-style-type: disc;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color:  rgba(209, 206, 196, 0.767);
+}
+  .color {
+    color: white;
+  }
+  /* for contact*/
+  div {
+    margin: 10px;
+}
+
+label {
+    margin-right: 15px;
+    width: 150px;
+    display: inline-block;
+}
+textarea {
+    margin-right: 500px;
+    width: 700px;
+    height: 200px;
+    display: inline-block;
+}
+.A {
+    width: 400px;
+}
+.B {
+    width: 400px;  
+}
+.C {
+    width: 227px;  
+}
+footer {
+  
+    font-size: .75em;
+    text-align: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+  
+    
+}
+/*@media only screen and (min-width: 400px) {
+    html {
+      background-image: url("../images/indexPage1.png" );
+    }
+  }*/
+  .addrightmargin {
+	margin-right: 10%;
+  }
+  img {
+	float: left;
+	border-radius: 150px;
+}

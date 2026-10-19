@@ -1,0 +1,46 @@
+body { 
+
+    color: #333333;
+    font-size: 1.25rem;
+   
+}
+.photpBack {
+    background-image: url("../images/indexPage1.png" );
+   
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+   background-position: center center;
+  
+    
+}
+img {
+	float: left;
+	border-radius: 150px;
+}
+/* for menu bar*/
+nav ul li {
+    display: inline;
+    border: 1px solid rgba(209, 206, 196, 0.767);
+    border-radius: 10px;
+    padding: 10px;
+    list-style-type: disc;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color:  rgba(209, 206, 196, 0.767);
+}
+  .color {
+    color: white;
+  }
+  footer {
+    font-size: .75em;
+    text-align: left;
+    margin-top: 700px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    
+   
+}
+.addrightmargin {
+	margin-right: 10%;
+  }

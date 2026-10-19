@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Raleway
+Author: The League of Moveable Type
+Url: http://www.fontsquirrel.com/fonts/raleway
+
+Font: Roboto
+Author: Christian Robertson
+Url: http://www.fontsquirrel.com/fonts/roboto

@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Practice CustomFonts Style Sheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.websafe {
+    font-family: 'Montserrat', sans-serif;
+}
+.google {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
